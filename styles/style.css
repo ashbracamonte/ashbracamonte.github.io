@@ -24,7 +24,7 @@
 .colortexto{
     color:#72747a;
 }
-listas li{
+.listas li{
     margin-top: 2%;
     
 }
@@ -32,5 +32,15 @@ listas li{
 .foto{
     width: 350px;
     height: 350px;
-    float: left 50% ;
+    float: right;
+    margin-right: 6%;
+}
+@media screen and (max-width:992px)
+{
+    .foto
+    {
+        float: unset;
+        margin-right: auto;
+        margin-left: 1%;
+    }
 }
