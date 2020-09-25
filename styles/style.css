@@ -1,0 +1,36 @@
+#header{
+    position:fixed;
+    top:0;
+    width:100%;
+    text-align: center;
+    z-index:1000;
+}
+
+#active
+{
+    border-bottom: 3px solid rgb(158, 158, 172) !important;
+    transition: all 0.4s ease-out !important;
+}
+
+.center{
+    text-align: center;
+}
+.color{
+    background:#dde2e3;
+}
+.colorfuente{
+    color:#554853;
+}
+.colortexto{
+    color:#72747a;
+}
+listas li{
+    margin-top: 2%;
+    
+}
+
+.foto{
+    width: 350px;
+    height: 350px;
+    float: left 50% ;
+}
